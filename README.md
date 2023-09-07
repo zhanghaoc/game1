@@ -16,6 +16,8 @@ Design: A puzzle game with triggers that allow crossing the wall.
 
 ![](assets/portal.png)
 
+original picture from [Pinterest](https://www.pinterest.com/pin/minecraft-pixel-art-templates-portal-two--532621093403996865/)
+
 ### How To Play:
 
 Use ←↑↓→ to move the yellow character and reach the blue/red flag.
