@@ -58,7 +58,7 @@ PlayMode::PlayMode() {
 	namespace fs = std::filesystem;
 	fs::path p = data_path("");
 	std::string workDir = p.parent_path().parent_path().string();
-	std::string filePath = workDir + "\\assets\\data.bin";
+	std::string filePath = workDir + "/assets/data.bin";
 
 
 	std::fstream fileStream1(filePath, std::fstream::in | std::fstream::out | std::ios::binary);
@@ -99,7 +99,7 @@ PlayMode::PlayMode() {
 		return v1[0] == v2[0] && v1[1] == v2[1] && v1[2] == v2[2] && v1[3] == v2[3];
 	};
 
-	std::string portalImgPath = workDir + "\\assets\\portal.png";
+	std::string portalImgPath = workDir + "/assets/portal.png";
 	
 	glm::uvec2 size = glm::uvec2(128, 96);
 	auto pngArray = std::vector< glm::u8vec4 >(size.x * size.y);
