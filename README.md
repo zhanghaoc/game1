@@ -4,8 +4,6 @@ Author: Haoxi Zhang
 
 Design: A puzzle game with triggers that allow crossing the wall.
 
-IMPORTANT BUG: please do not touch any other key, which may lead to game freeze. Will fix in the future.
-
 ### Screen Shot:
 
 ![Screen Shot](screenshot.png)
